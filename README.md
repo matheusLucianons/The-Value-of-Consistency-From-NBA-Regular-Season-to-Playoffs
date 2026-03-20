@@ -12,21 +12,37 @@ Este repositório contém o desenvolvimento de uma solução completa de **Busin
 A organização deste repositório reflete as etapas de Business Intelligence detalhadas na documentação do projeto, contendo os seguintes arquivos e diretórios:
 
 ├── Dados/
+
 │   ├── nba.csv                                           # Dataset bruto com estatísticas de 2012 a 2024 
+
 │   └── Relatorio Final - NBA - Inteligência de Negócios  # Documentação técnica com justificativas e insights 
+
 ├── ETL/
+
 │   ├── nba_job.kjb                                       # Job principal de orquestração no Pentaho PDI 
+
 │   ├── nba_dim_equipe.ktr                                # ETL para processamento da dimensão Equipe 
+
 │   ├── nba_dim_desempenho_jogador.ktr                    # ETL para a dimensão de índices de eficiência 
+
 │   ├── nba_dim_tempo.ktr                                 # ETL para contextualização de temporadas e fases 
+
 │   └── nba_fato_jogador.ktr                              # ETL da tabela Fato com cruzamento de chaves 
+
 ├── Modelagem de Dados/
+
 │   └── script_dw_nba.sql                                 # Scripts para criação do Star Schema no MySQL 
+
 ├── Visualização de Dados/
+
 │   └── nba_analytics.pbix                                # Dashboard interativo com KPIs e medidas DAX 
+
 |    └── Tela 1.png                                        # Imagem Dashboard Parte 1
+
 |    └── tela 2.png                                        # Imagem Dashboard Parte 2 
+
 ├── README
+
 └── README.md                                             # Guia principal com tecnologias e resultados 
 
 ## 🏗️ Modelagem Dimensional
