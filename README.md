@@ -36,6 +36,21 @@ O dashboard no **Power BI** foi desenhado para facilitar a tomada de decisão es
 *   Análise de evolução histórica dos arremessos de 3 pontos.
 *   Gráficos de dispersão correlacionando tempo de jogo e desempenho.
 
+## 📊 Resultados e Insights Obtidos
+
+A implementação desta solução de BI transformou dados brutos em um ecossistema analítico de alto impacto, consolidando os seguintes resultados técnicos e analíticos:
+
+*   **Fonte de Dados e Confiabilidade:** O projeto processou com sucesso o dataset extraído do **Kaggle**, cobrindo o período de 2012-13 a 2023-24.
+*   **Eficiência da Modelagem Dimensional:** Utilizando a **metodologia de Kimball**, estruturamos um modelo *Star Schema* no **MySQL** centrado na tabela `Fato_Jogador`. Isso permitiu uma granularidade por partida que suporta análises complexas sem perda de performance.
+*   **Automação via ETL (Pentaho PDI):** O processo de ETL garantiu a integridade referencial através da orquestração de *Jobs* e *Transformations*, realizando a limpeza de duplicatas, tratamento de nulos e a criação de métricas derivadas (como o índice de eficiência EFF) de forma automatizada.
+*   **Análise de Consistência (Regular Season vs. Playoffs):** O dashboard no **Power BI** revelou como a pressão das fases eliminatórias impacta os seis KPIs principais (**PPG, FG%, APG, RPG, EFF e MIN**). Foi possível identificar quais atletas mantêm a regularidade estatística sob alta intensidade defensiva.
+*   **Insights sobre o Jogo Moderno:** A visualização de dados evidenciou a evolução tática da liga, destacando o crescimento exponencial nas tentativas e conversões de **arremessos de 3 pontos** ao longo da última década.
+*   **Correlação Eficiência vs. Minutagem:** Através de gráficos de dispersão, validamos a correlação direta entre o tempo em quadra e o desempenho global, permitindo diferenciar jogadores de impacto imediato daqueles que sustentam a performance por longos períodos.
+*   **Ferramentas Integradas:** O sucesso do projeto foi sustentado pela integração entre **MySQL** (Data Warehouse), **Pentaho** (ETL), **Power BI** (Visualização) e **ProjectLibre** (Gestão).
+
+Para uma compreensão aprofundada de toda a jornada analítica, modelagem de dados e justificativas estatísticas, consulte o documento oficial:
+👉 **Relatório Final:** [./Dados/Relatorio Final - NBA - Inteligência de Negócios](./Dados/Relatorio%20Final%20-%20NBA%20-%20Inteligência%20de%20Negócios).
+
  ## 📚 Referências e Fonte de Dados
 A base de dados utilizada para este projeto de Business Intelligence foi extraída da plataforma **Kaggle**, abrangendo estatísticas detalhadas de jogadores e partidas da NBA.
 
