@@ -9,7 +9,7 @@ Este repositório contém o desenvolvimento de uma solução completa de **Busin
 *   **Gestão do Projeto:** ProjectLibre.
 
 ## 🏗️ Modelagem Dimensional
-Utilizamos a **metodologia de Kimball** para estruturar um modelo **Star Schema** (Esquema Estrela), otimizando a performance analítica e clareza dos dados.
+Foi utilizado a **metodologia de Kimball** para estruturar um modelo **Star Schema** (Esquema Estrela), otimizando a performance analítica e clareza dos dados.
 
 *   **Tabela Fato (`Fato_Jogador`):** Concentra métricas quantitativas por jogador e por partida, como pontos, rebotes e assistências.
 *   **Dimensões:**
