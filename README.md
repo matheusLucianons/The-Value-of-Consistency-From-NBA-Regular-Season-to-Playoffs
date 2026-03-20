@@ -24,7 +24,7 @@ A organização deste repositório reflete as etapas de Business Intelligence de
 │   └── nba_fato_jogador.ktr                              # ETL da tabela Fato com cruzamento de chaves 
 |
 ├── Modelagem de Dados/
-│   └── script_dw_nba.sql                                 # Scripts para criação do Star Schema no MySQL 
+│   └── nba_analytics.sql                                 # Scripts para criação do Star Schema no MySQL 
 |
 ├── Visualização de Dados/
 │   └── nba_analytics.pbix                                # Dashboard interativo com KPIs e medidas DAX 
