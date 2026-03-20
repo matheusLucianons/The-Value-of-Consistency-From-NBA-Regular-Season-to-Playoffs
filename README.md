@@ -35,3 +35,9 @@ O dashboard no **Power BI** foi desenhado para facilitar a tomada de decisão es
 *   Filtros dinâmicos por temporada, fase (Regular/Playoffs), equipe e jogador.
 *   Análise de evolução histórica dos arremessos de 3 pontos.
 *   Gráficos de dispersão correlacionando tempo de jogo e desempenho.
+
+ ## 📚 Referências e Fonte de Dados
+A base de dados utilizada para este projeto de Business Intelligence foi extraída da plataforma **Kaggle**, abrangendo estatísticas detalhadas de jogadores e partidas da NBA.
+
+*   **Dataset Principal:** [NBA Stats Dataset for last 10 years](https://www.kaggle.com/datasets/shivamkumar121215/nba-stats-dataset-for-last-10-years) – Fonte primária dos dados históricos das temporadas 2012-13 a 2023-24.
+*   **Referência Analítica:** [NBA Data Visualization (Kaggle Notebook)](https://www.kaggle.com/code/ugureker/nba-data-visualization/notebook) – Utilizado como material de apoio para exploração de dados e visualização.
