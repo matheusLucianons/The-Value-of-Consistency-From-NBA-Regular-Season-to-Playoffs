@@ -49,7 +49,7 @@ A implementação desta solução de BI transformou dados brutos em um ecossiste
 *   **Ferramentas Integradas:** O sucesso do projeto foi sustentado pela integração entre **MySQL** (Data Warehouse), **Pentaho** (ETL), **Power BI** (Visualização) e **ProjectLibre** (Gestão).
 
 Para uma compreensão aprofundada de toda a jornada analítica, modelagem de dados e justificativas estatísticas, consulte o documento oficial:
-👉 **Relatório Final:** [./Dados/Relatorio Final - NBA - Inteligência de Negócios.pdf](./Dados/Relatorio%20Final%20-%20NBA%20-%20Inteligência%20de%20Negócios.pdf).
+👉 **Relatório Final:** [./Dados/Relatorio Final - NBA - Inteligência de Negócios.pdf](./Dados/Relatório%20Final%20-%20NBA%20-%20Inteligência%20de%20Negócios.pdf).
 
  ## 📚 Referências e Fonte de Dados
 A base de dados utilizada para este projeto de Business Intelligence foi extraída da plataforma **Kaggle**, abrangendo estatísticas detalhadas de jogadores e partidas da NBA.
